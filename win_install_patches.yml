@@ -6,4 +6,4 @@
     category_names:
       - SecurityUpdates
       - CriticalUpdates
-    reboot: yes
+    #reboot: yes
