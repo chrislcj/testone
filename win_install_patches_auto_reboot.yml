@@ -1,7 +1,7 @@
 ---
 - hosts: all
   tasks:
-  - name: Search patches
+  - name: Install patches
     win_updates:
       category_names: 
        - SecurityUpdates
