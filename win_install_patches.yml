@@ -1,9 +1,8 @@
 ---
 - hosts: all
   tasks:
-  - name: Install updates with automatic reboots
+  - name: Search patches
     win_updates:
-    category_names:
-      - SecurityUpdates
-      - CriticalUpdates
-    #reboot: yes
+      category_names: 
+       - SecurityUpdates
+       - CriticalUpdates
